@@ -1,7 +1,7 @@
 %define		_plugin	addgraphics
 %define		mversion	1.0.3
 Summary:	Plugin to allow custom graphic on the left-hand pane
-Summary(pl):	Wtyczka umo¿liwiaj±ca dodanie w³asnej grafiki w lewym panelu
+Summary(pl.UTF-8):   Wtyczka umoÅ¼liwiajÄ…ca dodanie wÅ‚asnej grafiki w lewym panelu
 Name:		squirrelmail-plugin-%{_plugin}
 Version:	2.3
 Release:	1
@@ -29,14 +29,14 @@ config.php for more information and configuration instructions.
 The plugin supports resizing the width of the left-hand pane by the
 user.
 
-%description -l pl
-Wtyczka umo¿liwiaj±ca administratorowi dodanie w³asnej grafiki w lewym
-panelu. Grafika bêdzie wy¶wietlana bezpo¶rednio nad list± folderów.
+%description -l pl.UTF-8
+Wtyczka umoÅ¼liwiajÄ…ca administratorowi dodanie wÅ‚asnej grafiki w lewym
+panelu. Grafika bÄ™dzie wyÅ›wietlana bezpoÅ›rednio nad listÄ… folderÃ³w.
 
-Mo¿na u¿yæ innej grafiki dla ka¿dej obs³ugiwanej domeny. Informacje i
-szczególy dotycz±ce konfiguracji znajduj± siê w pliku config.php.
+MoÅ¼na uÅ¼yÄ‡ innej grafiki dla kaÅ¼dej obsÅ‚ugiwanej domeny. Informacje i
+szczegÃ³ly dotyczÄ…ce konfiguracji znajdujÄ… siÄ™ w pliku config.php.
 
-Wtyczka wspiera zmianê szeroko¶ci lewego panelu przez u¿ytkownika.
+Wtyczka wspiera zmianÄ™ szerokoÅ›ci lewego panelu przez uÅ¼ytkownika.
 
 %prep
 %setup -q -n %{_plugin}
