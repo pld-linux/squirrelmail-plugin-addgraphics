@@ -1,7 +1,7 @@
 %define		_plugin	addgraphics
 %define		mversion	1.0.3
 Summary:	Plugin to allow custom graphic on the left-hand pane
-Summary(pl.UTF-8):   Wtyczka umożliwiająca dodanie własnej grafiki w lewym panelu
+Summary(pl.UTF-8):	Wtyczka umożliwiająca dodanie własnej grafiki w lewym panelu
 Name:		squirrelmail-plugin-%{_plugin}
 Version:	2.3
 Release:	1
