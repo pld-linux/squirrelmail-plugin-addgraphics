@@ -4,14 +4,14 @@ Summary:	Plugin to allow custom graphic on the left-hand pane
 Summary(pl.UTF-8):	Wtyczka umożliwiająca dodanie własnej grafiki w lewym panelu
 Name:		squirrelmail-plugin-%{_plugin}
 Version:	2.3
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/Mail
 Source0:	http://www.squirrelmail.org/plugins/%{_plugin}-%{version}-%{mversion}.tar.gz
 # Source0-md5:	c9319e32149026372a0d515ddbc1d14b
 URL:		http://www.squirrelmail.org/plugin_view.php?id=30
 Requires:	squirrelmail >= 1.4.6-2
-Requires:	squirrelmail-compatibility-2.0.4
+Requires:	squirrelmail-compatibility >= 2.0.4
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
